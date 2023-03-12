@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,13 +21,13 @@
                 <a class="logo" href="./index.html">WEB<span class="black">STUDIO</span></a>
                 <ul class="navig-row">
                     <li class="navig-offset">
-                        <a class="navig linc-current" href="./index.html">Studio</a>
+                        <a class="navig linc-current hidden" href="./index.html">Studio</a>
                     </li>
                     <li class="navig-offset">
-                        <a class="navig" href="./portfolio.html">Portfolio</a>
+                        <a class="navig hidden" href="./portfolio.html">Portfolio</a>
                     </li>
                     <li class="navig-offset">
-                        <a class="navig" href="">Contacts</a>
+                        <a class="navig hidden" href="">Contacts</a>
                     </li>
                 </ul>
             </nav>
@@ -35,16 +35,22 @@
                 <ul class="contakts-row">
     
                     <li class="contacts-offset">
-                        <a class="contakts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        <a class="contakts hidden" href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li>
     
                     <li class="contacts-offset">
-                        <a class="contakts" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                        <a class="contakts hidden" href="tel:+110001111111">+11 (000) 111-11-11</a>
                     </li>
     
                 </ul>
             </address>
         </div>
+        <button class="hidden-tablet" type="menu-button">
+            <svg class="hidden-tablet" width="32px" height="22px"
+                 aria-label="">
+                <use class="icon-boorger" href="./images/charm_menu-hamburger (2).svg"></use>
+            </svg>
+        </button>
     </header>
 
     <main>
@@ -55,12 +61,12 @@
 
         <section>
             <div class="container our-advantages">
-                <h2 class="title-h2 invisible">Our Advantages</h2>
+                <h2 class="title-h2 invisible hidden">Our Advantages</h2>
                 <ul class="our-advantages-row">
 
                     <li class="our-advantages-offset">
                         <a class="our-advantages-picture">
-                            <svg class="our-advantages-icon" width="59.72" height="64">
+                            <svg class="our-advantages-icon hidden" width="59.72" height="64">
                                 <use href="./images/icons.svg#icon-antenna-1"></use>
                             </svg>
                         </a>
@@ -71,7 +77,7 @@
 
                     <li class="our-advantages-offset">
                         <a class="our-advantages-picture">
-                            <svg class="our-advantages-icon" width="64" height="64">
+                            <svg class="our-advantages-icon hidden" width="64" height="64">
                                 <use href="./images/icons.svg#icon-clock-1"></use>
                             </svg>
                         </a>
@@ -82,7 +88,7 @@
 
                     <li class="our-advantages-offset">
                         <a class="our-advantages-picture">
-                            <svg class="our-advantages-icon" width="64" height="64">
+                            <svg class="our-advantages-icon hidden" width="64" height="64">
                                 <use href="./images/icons.svg#icon-diagram-1"></use>
                             </svg>
                         </a>
@@ -93,7 +99,7 @@
 
                     <li class="our-advantages-offset">
                         <a class="our-advantages-picture">
-                            <svg class="our-advantages-icon" width="64" height="64">
+                            <svg class="our-advantages-icon hidden" width="64" height="64">
                                 <use href="./images/icons.svg#icon-astronaut-1"></use>
                             </svg>
                         </a>
@@ -107,7 +113,7 @@
         </section>
     
         <section>
-            <div class="container">
+            <div class="container hidden">
                 <h2 class="title-h2">What are we doing</h2>
                 <ul class="doing-row">
                     <li class="doing-offset">
@@ -358,7 +364,7 @@
     <footer class="footer">
         <div class="container footer-row">
             <div class="footer-block-logo">
-                <a class="logo" href="./index.html">WEB<span class="wight">STUDIO</span></a>
+                <a class="logo footer-logo" href="./index.html">WEB<span class="wight">STUDIO</span></a>
                 <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
             </div> 
             
