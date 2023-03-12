@@ -45,10 +45,10 @@
                 </ul>
             </address>
         </div>
-        <button class="hidden-tablet" type="menu-button">
+        <button data-modal2-open class="hidden-tablet" type="menu-button">
             <svg class="hidden-tablet" width="32px" height="22px"
                  aria-label="">
-                <use class="icon-boorger" href="./images/charm_menu-hamburger (2).svg"></use>
+                <use class="icon-boorger" href="./images/icons.svg#icon-menu"></use>
             </svg>
         </button>
     </header>
@@ -363,48 +363,52 @@
 
     <footer class="footer">
         <div class="container footer-row">
-            <div class="footer-block-logo">
-                <a class="logo footer-logo" href="./index.html">WEB<span class="wight">STUDIO</span></a>
-                <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
-            </div> 
-            
-            <div class="footer-block-media">
-                <p class="footer-media-text">Social media</p>
-                <ul class="footer-media-sigh-row">
-                    <li class="footer-media-sigh">
-                        <a href="">
-                            <svg class="footer-media-icon" width="24" height="24">
-                                <use href="./images/icons.svg#icon-instagram-2"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="footer-media-sigh">
-                        <a href="">
-                            <svg class="footer-media-icon" width="24" height="24">
-                                <use href="./images/icons.svg#icon-twitter-1"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="footer-media-sigh">
-                        <a href="">
-                            <svg class="footer-media-icon" width="24" height="24">
-                                <use href="./images/icons.svg#icon-facebook-1"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="footer-media-sigh">
-                        <a href="">
-                            <svg class="footer-media-icon" width="24" height="24">
-                                <use href="./images/icons.svg#icon-linkedin-1"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
+            <div class="footer-row2">
+                <div class="footer-block-logo">
+                    <a class="logo footer-logo" href="./index.html">WEB<span class="wight">STUDIO</span></a>
+                    <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+                </div> 
+                
+                <div class="footer-block-media">
+                    <p class="footer-media-text">Social media</p>
+                    <ul class="footer-media-sigh-row">
+                        <li class="footer-media-sigh">
+                            <a href="">
+                                <svg class="footer-media-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-instagram-2"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-media-sigh">
+                            <a href="">
+                                <svg class="footer-media-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-media-sigh">
+                            <a href="">
+                                <svg class="footer-media-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-media-sigh">
+                            <a href="">
+                                <svg class="footer-media-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
             <div class="footer-subscribe">
-                <p class="footer-media-text">Subscribe</p>
-                <input type="text" name="user-e-mail" id="e-mail" class="subscribe-input" placeholder="E-mail">
+                <div>
+                    <p class="footer-media-text">Subscribe</p>
+                    <input type="text" name="user-e-mail" id="e-mail" class="subscribe-input" placeholder="E-mail">
+                </div>
                 <button class="subscribe-button">
                     Subscribe
                     <svg class="footer-subscribe-icon" width="24" height="20">
@@ -482,4 +486,43 @@
         </div>
     </div>
     <script src="./js/modal.js"></script>
+
+
+    <div data-modal2 class="backdrop2 is-hidden">
+        <div class="mob-modal">
+            <button data-modal2-close class="close-modal2">
+                <svg class="close-modal2-icon" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+
+            <ul class="mob-navig">
+                <li class="mob-navig-offset">
+                    <a class="mob-navig" href="./index.html">Studio</a>
+                </li>
+                    <li class="mob-navig-offset">
+                        <a class="mob-navig" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="mob-navig-offset">
+                        <a class="mob-navig active" href="">Contacts</a>
+                    </li>
+            </ul>
+                </nav>
+                <address>
+                    <ul class="">
+
+                        <li class="mob-contacts-offset">
+                            <a class="mob-fon" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                        </li>
+                
+                        <li class="">
+                            <a class="mob-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>  
+
+                    </ul>
+        </div>
+    </div>
+    <script src="./js/modal2.js"></script>
+
+
 </body>
