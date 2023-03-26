@@ -44,19 +44,20 @@
     
                 </ul>
             </address>
+            <button data-modal2-open class="hidden-tablet" type="button">
+                <svg class="hidden-tablet" width="32px" height="22px"
+                    aria-label="">
+                    <use class="icon-boorger" href="./images/icons.svg#icon-menu"></use>
+                </svg>
+            </button>            
         </div>
-        <button data-modal2-open class="hidden-tablet" type="menu-button">
-            <svg class="hidden-tablet" width="32px" height="22px"
-                 aria-label="">
-                <use class="icon-boorger" href="./images/icons.svg#icon-menu"></use>
-            </svg>
-        </button>
+
     </header>
 
     <main>
         <section class="section-order">
             <h1 class="title-h1">Effective Solutions<br> for Your Business</h1>
-            <button data-modal-open type="button" class="button-order" >Order Service</button>
+            <button data-modal-open type="button" class="button-order">Order Service</button>
         </section>
 
         <section>
@@ -117,13 +118,13 @@
                 <h2 class="title-h2">What are we doing</h2>
                 <ul class="doing-row">
                     <li class="doing-offset">
-                        <img src="./images/21.jpg" alt="comp" width="360">
+                        <img srcset="./images" src="./images/21.jpg 1x, ./images/21@2x.jpg 2x" alt="comp" width="360">
                     </li>
                     <li class="doing-offset">
-                        <img src="./images/22.jpg" alt="mobile" width="360">
+                        <img src="./images/22.jpg 1x, ./images/22@2x.jpg 2x" alt="mobile" width="360">
                     </li>
                     <li class="doing-offset">
-                        <img src="./images/23.jpg" alt="comp_and_mobile" width="360">
+                        <img src="./images/23.jpg, ./images/23@2x.jpg 2x" alt="comp_and_mobile" width="360">
                     </li>
                 </ul>
             </div>
@@ -134,7 +135,7 @@
                 <h2 class="title-h2">Our Team</h2>
                 <ul class="our-team-row">
                     <li class="our-team-cards">
-                        <img src="./images/31.jpg" alt="Mark_Guerrero" width="264">
+                        <img srcset="./images/31.jpg 1x, ./images/31@2x.jpg 2x" src="./images/31.jpg" alt="Mark_Guerrero" width="264">
                             <div class="our-team-text">
                                 <h3 class="our-team-name">Mark Guerrero</h3>
                                 <p class="profession">Product Designer</p>
@@ -176,7 +177,7 @@
                     </li>
 
                     <li class="our-team-cards">
-                        <img src="./images/32.jpg" alt="Tom_Ford" width="264">
+                        <img srcset="./images/32.jpg 1x, ./images/32@2x.jpg 2x" src="./images/32.jpg" alt="Tom_Ford" width="264">
                             <div class="our-team-text">
                                 <h3 class="our-team-name">Tom Ford</h3>
                                 <p  class="profession">Frontend Developer</p>
@@ -218,7 +219,7 @@
                     </li>
 
                     <li class="our-team-cards">
-                        <img src="./images/33.jpg" alt="Camila_Garcia" width="264">
+                        <img  srcset="./images/33.jpg 1x, ./images/33@2x.jpg 2x" src="./images/33.jpg" alt="Camila_Garcia" width="264">
                             <div class="our-team-text">
                                 <h3 class="our-team-name">Camila Garcia</h3>
                                 <p  class="profession">Marketing</p>
@@ -260,7 +261,7 @@
                     </li>
 
                     <li class="our-team-cards">
-                        <img src="./images/34.jpg" alt="Daniel_Wilson" width="264">
+                        <img  srcset="./images/34.jpg 1x, ./images/34@2x.jpg 2x" src="./images/34.jpg" alt="Daniel_Wilson" width="264">
                             <div class="our-team-text">
                                 <h3 class="our-team-name">Daniel Wilson</h3>
                                 <p  class="profession">UI Designer</p>
@@ -507,19 +508,53 @@
                         <a class="mob-navig active" href="">Contacts</a>
                     </li>
             </ul>
-                </nav>
-                <address>
-                    <ul class="">
 
-                        <li class="mob-contacts-offset">
-                            <a class="mob-fon" href="tel:+110001111111">+11 (000) 111-11-11</a>
-                        </li>
+            <address>
+                <ul class="mob-contacts">
+                    <li class="mob-contacts-offset">
+                        <a class="mob-fon" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                    </li>
                 
-                        <li class="">
-                            <a class="mob-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                        </li>  
-
+                    <li class="">
+                        <a class="mob-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>  
+                </ul>
+            </address>
+            <div>      
+                <ul class="modal2-soc-net-row">     
+                    <li class="modal2-soc-net">
+                            <a href="">
+                                <svg class="modal2-soc-net-icon" width="16" height="16">
+                                    <use href="./images/icons.svg#icon-instagram-2"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    
+                        <li class="modal2-soc-net">
+                            <a href="">
+                                <svg class="modal2-soc-net-icon" width="16" height="16">
+                                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    
+                        <li class="modal2-soc-net">
+                            <a href="">
+                                <svg class="modal2-soc-net-icon" width="" height="16">
+                                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    
+                        <li class="modal2-soc-net">
+                            <a href="">
+                                <svg class="modal2-soc-net-icon" width="16" height="16">
+                                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                                </svg>
+                            </a>
+                        </li>
                     </ul>
+            </div>
         </div>
     </div>
     <script src="./js/modal2.js"></script>
